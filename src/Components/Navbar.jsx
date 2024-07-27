@@ -9,10 +9,10 @@ function Navbar({ onSearch }) {
   return (
     <div className="navbar bg-black-100">
       <div className="flex-1">
-        <Link to="/" className="btn btn-ghost text-xl">Wellness Retreats</Link>
+        <Link to="/" className="btn btn-ghost text-xl ">Wellness Retreats</Link>
       </div>
       
-        <div className="form-control mr-4">
+        <div className="form-control mr-2">
           <input
             type="text"
             placeholder="Search"

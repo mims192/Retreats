@@ -13,7 +13,7 @@ const FeatureItem=({ imgSrc, title, description })=> {
     });
   
     return (
-      <div ref={ref} className={`feature-item ${inView ? 'in-view' : ''}`}>
+      <div ref={ref} className={`feature-item  ${inView ? 'in-view' : ''}`}>
         <div className="icon-circle">
           <img src={imgSrc} alt={title} />
         </div>
@@ -24,7 +24,7 @@ const FeatureItem=({ imgSrc, title, description })=> {
   }
   
   return (
-    <div className='mb-12 mt-10' style={{  textAlign: 'center' }}>
+    <div className='mb-12 mt-10 ml-10' style={{  textAlign: 'center' }}>
      
       
       <div className="features-container">

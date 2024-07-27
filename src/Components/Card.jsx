@@ -5,7 +5,7 @@ function Card({ id, title, description, imgurl, location, price, duration }) {
   const navigate = useNavigate();
 
   const handleClick = () => {
-    console.log('Navigating to /book/', id); // Debug log
+
     navigate(`/book/${id}`);
   };
 
