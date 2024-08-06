@@ -14,9 +14,9 @@ function Card({ id, title, description, imgurl, location, price, duration }) {
       <div className="card-body">
         <h1 className="font-semibold text-xl">{title}</h1>
         <p><span className="font-semibold">Description:</span> {description}</p>
-        <p><span className="font-semibold">Location:</span> {location}</p>
-        <h2><span className="font-semibold">Price:</span> {price}</h2>
-        <p><span className="font-semibold">Duration:</span> {duration}</p>
+        <p className="mt-0"><span className="font-semibold">Location:</span> {location}</p>
+        <p className="mt-0"><span className="font-semibold">Price:</span> {price}</p>
+        <p className="mt-0"><span className="font-semibold">Duration:</span> {duration}</p>
         <div className="card-actions justify-end">
           <Link to={`/book/${id}`}>
             <button className="btn bg-green-300">Book Now</button>
