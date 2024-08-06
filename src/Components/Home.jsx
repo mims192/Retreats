@@ -6,6 +6,8 @@ import Footer from './Footer';
 import Carousel2 from './Carousel2';
 import Card from './Card';
 import axios from 'axios';
+import Testimonials from './Testimonials';
+
 
 function Home() {
   const [data, setData] = useState([]);
@@ -125,9 +127,10 @@ function Home() {
             <button className="btn bg-sky-300" onClick={() => setPage(page > 1 ? page - 1 : 1)}>❮</button>
             <button className="btn bg-green-200" onClick={() => setPage(page + 1)}>❯</button>
           </div>
-          <h1 className='text-center font-semibold text-4xl mt-10 mb-2'>Transform Your Life</h1>
+          <h1 className='text-center font-semibold text-4xl mt-10 mb-10'>Transform Your Life</h1>
           <Retreat />
           <WhyRetreat />
+          <Testimonials/>
           <Footer />
         </>
       )}

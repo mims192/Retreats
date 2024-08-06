@@ -16,7 +16,7 @@ import Slider from 'react-slick';
         arrows: true,
     };
   return (
-    <div className='mb-10 w-full'>
+    <div className='mb-10 w-full mt-16'>
        <Slider {...settings}>
             <div>
                 <img src="https://cdn.midjourney.com/873b60f7-f026-40f9-b2d7-184e981ee1f5/0_3.jpeg" alt="Slide 1" className="w-full " style={{height:'550px'}}/>

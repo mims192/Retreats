@@ -24,7 +24,7 @@ const FeatureItem=({ imgSrc, title, description })=> {
   }
   
   return (
-    <div className='mb-12 mt-10 ml-10' style={{  textAlign: 'center' }}>
+    <div id='#section1' className='mb-12 mt-10 ml-10' style={{  textAlign: 'center' }}>
      
       
       <div className="features-container">

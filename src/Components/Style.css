@@ -51,4 +51,33 @@
       transform: translateX(0);
     }
   }
+  .navigation:hover {
+    background-color: aliceblue;
+  }
+  .navigation{
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    z-index: 1000;
+    background-color: aliceblue;
+  }
+  .suprsend{
+    background-color: black;
+
+  }
+  .dark {
+    background-color: #121212;
+    
+  }
+  .navigate{
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    z-index: 1000;
+    background-color: FFCDEA;
+  }
  
+
+  

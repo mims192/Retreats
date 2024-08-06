@@ -11,6 +11,7 @@ function BookRetreat() {
       const url = `https://669f704cb132e2c136fdd9a0.mockapi.io/api/v1/retreats/${id}`;
       const response = await fetch(url);
       const data = await response.json();
+      console.log(data);
       setData({
         id: data.id,
         title: data.title,
@@ -33,6 +34,7 @@ function BookRetreat() {
     <div>
       {data ? (
         <Card
+          key={data.id}
           id={data.id}
           title={data.title}
           description={data.description}
