@@ -20,9 +20,9 @@ function Navbar2({ onSearch }) {
 
       <SuprSendInbox
         themeType="light"
-        workspaceKey={process.env.REACT_APP_WORKSPACE_KEY}
-        subscriberId={process.env.REACT_APP_SUBSCRIBER_ID}
-        distinctId={process.env.REACT_APP_DISTINCT_ID}
+        workspaceKey="ueAwrsnptDPMadtZiYWJ"
+        subscriberId="-ye8TtljpDOrIgq-YO7SDo7V29OV6VdbkyQk-K6C0Lk"
+        distinctId="456"
         popperPosition= "bottom"
         toastProps={{
           position: 'top-left',
